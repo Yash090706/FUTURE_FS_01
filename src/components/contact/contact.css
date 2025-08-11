@@ -1,0 +1,131 @@
+#contact {
+    margin-top:3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;       /* Horizontal center */
+    justify-content: center;   /* Vertical center */
+    min-height: 100vh;         /* Take full height of the screen */
+    text-align: center;
+
+}
+.contactpagetitle{
+    font-size: 2rem;
+}
+.contactdesc{
+    padding:1rem;
+    font-size:medium;
+    font-weight:300;
+
+}
+.contactform{
+    margin:1rem;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width:90vw;
+    max-width: 60rem;
+
+}
+
+.name,.email,.msg{
+    font-size:medium;
+    width:100%;
+    max-width:40rem;
+    margin:0.5rem;
+    padding:0.5rem 1rem;
+    color:white;
+    border:none;
+    border-radius:0.5rem;
+    background: rgb(40,40,40);
+
+}
+.formbtn{
+    background: white;
+    border:none;
+    padding:0.75rem 3.5rem;
+    margin-top:1rem;
+    border-radius:0.5rem;
+    cursor:pointer;
+    font-weight: 500;
+    
+    
+
+    
+}
+.linksform{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top:2rem;
+    align-items:center;
+    justify-content: center;
+
+
+
+}
+.iconlink{
+    object-fit:cover;
+    height:3rem;
+    width:3rem;
+    margin:0 0.75rem;
+
+
+}
+.visit{
+    margin-top:0.5rem;
+    background: white;
+    border:none;
+    border-radius:0.5rem;
+    padding:0.5rem 1rem;
+    font-weight:500;
+    width:8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+[
+    {
+    "title":"Project1",
+    "description":"Description for Project1",
+    "skills":["Python","MySQL"],
+    "image":"project1.png",
+    "demo":"",
+    "source":""
+    },
+    {
+        "title":"Project2",
+"description":"Description for Project1",
+"skills":["Python","MySQL"],
+"image":"project1.png",
+"demo":"",
+"source":""
+
+    }
+]

@@ -1,0 +1,86 @@
+.navbar{
+    background-color: rgb(30,30,30);
+    height:5rem;
+    width:100vm;
+    max-width: 75rem;
+    /* background-color: #333 */
+    margin:0 auto;
+    padding:1rem;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:sticky;
+    top:0;
+    z-index:3;
+}
+.logoimg{
+    color:yellow;
+    
+
+}
+.menuitem{
+    cursor:pointer;
+    margin:1rem;
+}
+.menuitem:hover{
+    color:yellow;
+    padding-bottom:0.5rem;
+    border-bottom:3px solid yellow;
+}
+.desktopmenubtn{
+    background-color: white;
+    color:black;
+    border:none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:0.5rem 1rem;
+    border-radius: 2rem;
+    cursor:pointer;
+
+
+}
+.active{
+    color:yellow;
+    padding-bottom:0.5rem;
+    border-bottom:3px solid yellow;
+}
+.menuicon{
+    display:none;
+    object-fit: cover;
+    height:1.8rem;
+
+}
+.mobilemenu{
+    position:absolute;
+    top:4rem;
+    right:2rem;
+    background-color: rgb(40,40,40);
+    padding:0.5rem;
+    z-index:2;
+    display:flex;
+    flex-direction:column;
+    height:fit-content;
+    min-width:15rem;
+    border-radius: 1rem;
+
+}
+.mobileitem{
+    color:white;
+    padding:0.5rem 3rem;
+    margin:0.25rem;
+    background-color:  rgb(30,30,30);
+}
+@media screen and (max-width: 720px) {
+    .desktopmenu{
+        display:none;
+    }
+    .menuicon{
+        display:flex;
+    }
+    .desktopmenubtn{
+        display: none;
+    }
+
+    
+}
