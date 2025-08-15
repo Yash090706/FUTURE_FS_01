@@ -61,8 +61,13 @@
     font-size:1.5rem;
     font-weight:500;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:700px){
     .skillbartext>p{
-        padding-bottom:2rem
+        padding-bottom:2rem;
+        font-size:0.5rem;
     }
+    .skillbartext>h2{
+        font-size:0.9rem;
+    }
+
 }
