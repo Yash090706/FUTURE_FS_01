@@ -3,23 +3,40 @@ import "./project.css";
 import django2 from "../../assets/GMS.png";
 import sgame from "../../assets/snakegame.png"; // Assuming you have an image for the snake game
  // Assuming you have an image for the project
+ import ecommerce from "../../assets/ecommerce.png";
+import portfolio from "../../assets/portfolio.png";
 
 const projects = [
   {
-    title: "Snake Game",
-    description: "A Snake Game built by Pygame library of Python.",
-    image: sgame,
-    skills: ["Python"],
-    link: "#",
+    title: " Mini Ecommerce Website",
+    description: "The Mini E-commerce Cart is a full-stack web application.",
+    image: ecommerce,
+    skills: ["Django","React","SQLite","Bootstrap"],
+    link: "https://github.com/Yash090706/FUTURE_FS_02",
 
   },
+  {
+  title: " Portfolio Website",
+  description: "My first personal portfolio website to showcase my skills and projects.",
+  image: portfolio,
+  skills: ["React","HTML","CSS"],
+  link: "https://future-fs-01-xi.vercel.app/",
+},
+  
   {
     title: "Gym Management System",
     description: "To manage the members ,trainers ,staff and delivery status,inventory and renewal alerts placing equipments orders,graphical tracking of everday new membership also otp verification incase if password is forgotten.",
     image: django2,
     skills: ["Python","MySQL"],
     link: "#"
-  } 
+  },
+  {
+  title: "Snake Game",
+  description: "A Snake Game built by Pygame library of Python.",
+  image: sgame,
+  skills: ["Python"],
+  link: "#",
+},
 ];
 
 function Projects() {
