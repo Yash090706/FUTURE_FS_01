@@ -104,9 +104,15 @@
     }
     .menuicon{
         display:flex;
+    
     }
     .desktopmenubtn{
         display: none;
+    }
+    .socialicons{
+        margin-top:70px;
+        margin-right:300px;
+        
     }
 
     
