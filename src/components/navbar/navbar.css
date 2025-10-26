@@ -99,6 +99,8 @@
 
 
 @media screen and (max-width: 720px) {
+
+
     .desktopmenu{
         display:none;
     }
@@ -112,8 +114,13 @@
     .socialicons{
         margin-top:70px;
         margin-right:250px;
+        transition: opacity 0.2s ease;
         
     }
+    .socialicons.hide {
+  opacity: 0;
+  pointer-events: none;  /* prevents clicking while hidden */
+}
 
     
 }

@@ -1,4 +1,4 @@
-import React ,{useState}from 'react';
+import React ,{useState,useEffect}from 'react';
 import './navbar.css';
 import yashlogo from '../../assets/yashlogo.jpg';
 import {Link} from 'react-scroll';
@@ -12,7 +12,20 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Navbar(){
     const [showmenu,setshowmenu] = useState(false);
+    useEffect(() => {
+  const handleScroll = () => {
+    const socialIcons = document.querySelector(".socialicons");
+    if (window.scrollY > 100) {
+      socialIcons.classList.add("hide");
+    } else {
+      socialIcons.classList.remove("hide");
+    }
+  };
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
     return(
+        <div className="fullnav">
         <nav className="navbar">
             {/* <img src={yashlogo} alt="Logo" className="logoimg"></img> */}
             <div className="logoimg">
@@ -41,6 +54,7 @@ function Navbar(){
             <a href="https://www.linkedin.com/in/yash-nanekar-b7b69a345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faLinkedin} className="linkedinicon" />
 </a></div>
+
             <img src={menu} alt="Menu" className="menuicon" onClick={()=>setshowmenu(!showmenu)}></img>
 
             <div className="mobilemenu" style={{display:showmenu? 'flex' : 'none'}}>
@@ -55,6 +69,7 @@ function Navbar(){
 
 
         </nav>
+        </div>
     );
 
 }
