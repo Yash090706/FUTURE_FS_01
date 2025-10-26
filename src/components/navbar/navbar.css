@@ -96,7 +96,10 @@
 .linkedinicon:hover {
   color: #0077b5; /* LinkedIn blue */
 }
-
+.socialicons.hide {
+  opacity: 0;
+  pointer-events: none;
+}
 
 @media screen and (max-width: 720px) {
 
