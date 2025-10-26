@@ -5,6 +5,9 @@ import {Link} from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import menu from '../../assets/menu.png'; // Assuming you have a menu icon image
+// import { faGithub } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 
 function Navbar(){
@@ -31,6 +34,13 @@ function Navbar(){
                 <FontAwesomeIcon icon={faPaperPlane} className="desktopmenuicon" />&nbsp;&nbsp;Contact Us
 
             </button>
+            <div className="socialicons">
+            <a href="https://github.com/Yash090706" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faGithub} className="githubicon" />
+                </a>
+            <a href="https://www.linkedin.com/in/yash-nanekar-b7b69a345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+  <FontAwesomeIcon icon={faLinkedin} className="linkedinicon" />
+</a></div>
             <img src={menu} alt="Menu" className="menuicon" onClick={()=>setshowmenu(!showmenu)}></img>
 
             <div className="mobilemenu" style={{display:showmenu? 'flex' : 'none'}}>

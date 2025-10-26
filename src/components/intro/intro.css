@@ -10,9 +10,9 @@
 }
 .bg{
     position:absolute;
-    top:8rem;
+    top:12rem;
     right:0;
-    height:80vh;
+    /* height:80vh; */
     z-index:-1;
     object-fit: cover;
 }

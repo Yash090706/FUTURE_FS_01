@@ -1,6 +1,7 @@
 import React from 'react';
 import './intro.css';
 import bg from '../../assets/yash5.jpg';
+import tech from '../../assets/BgTech5.png'
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
@@ -18,7 +19,7 @@ function Intro(){
                 }}><FontAwesomeIcon icon={faBriefcase} style={{ marginRight: '8px', color:"black" }} />
 Hire Me</button></Link>
                 </div>
-            <img src={bg} alt="bgimage" className="bg"></img>
+            <img src={tech} alt="bgimage" className="bg" width="500px" height="400px"></img>
 
         </section>
 

@@ -24,19 +24,20 @@ function Resume() {
 
         <h4>Technical Skills</h4>
         <ul>
-          <li>Programming: Python, Java</li>
-          <li>Web Development: HTML, CSS, JavaScript, React (learning)</li>
-          <li>Databases: MySQL</li>
-          <li>Frameworks: Django</li>
+          <li>Programming Languages: Python, Java</li>
+          <li>Web Development:Frontend Languages - HTML, CSS, JavaScript, React </li>
+          <li>Backend Framework: Django</li>
+          <li>Databases: MySQL,PLSQL</li>
+          <li>Others:Data Structres in Python</li>
           <li>Soft Skills: Teamwork, Communication, Problem-Solving</li>
         </ul>
 
         <h4>Projects</h4>
         <ul>
+          <li>Ecommerce Website</li>
+          <li>Portfolio Website</li>
           <li>Gym Management System (Python Tkinter + MySQL)</li>
           <li>Snake Game (Pygame, Team Project)</li>
-          <li>WordPress Website for Electronic Items Shopping</li>
-          <li>Employee Management System (Django)</li>
         </ul>
 
         <h4>Achievements</h4>

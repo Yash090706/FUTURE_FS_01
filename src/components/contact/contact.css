@@ -71,6 +71,10 @@
 
 
 }
+.visitbtn{
+     display: flex;
+ gap: 20px;
+}
 .visit{
     margin-top:0.5rem;
     background: white;
@@ -79,7 +83,17 @@
     padding:0.5rem 1rem;
     font-weight:500;
     width:8rem;
+    cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
 
 
 

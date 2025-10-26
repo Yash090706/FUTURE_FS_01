@@ -9,6 +9,9 @@ function Contact(){
     const visit = () => {
         window.open("https://www.linkedin.com/in/yash-nanekar-b7b69a345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", "_blank");
     }
+    const git=()=>{
+        window.open("https://github.com/Yash090706")
+    }
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -37,21 +40,23 @@ function Contact(){
                     Please Fill Out the form for any work opportunities.
                 </span>
                 <form className='contactform' ref={form} onSubmit={sendEmail}>
-                    <input type="text" placeholder="Your Name" className='name' ref={form} name='name'></input>
-                    <input type="email" className="email" placeholder="Your Email" ref={form} name='email'></input>
-                    <textarea className="msg" name="message" rows="5" placeholder="Your Message" ref={form}></textarea>
+                    <input type="text" placeholder="Your Name" required className='name' ref={form} name='name'></input>
+                    <input type="email" className="email" required placeholder="Your Email" ref={form} name='email'></input>
+                    <textarea className="msg" name="message" rows="5" required placeholder="Your Message" ref={form}></textarea>
                     <button type="submit" value="Send"className="formbtn">Submit</button>
                     <div className="linksform">
-                        <h2>Visit my Linkedin Account.</h2>
-                        <img src={linkedin}alt="Linkedin" className='iconlink'></img>
+                        <h2>Visit my Linkedin and Github Account.</h2>
+                        {/* <img src={linkedin}alt="Linkedin" className='iconlink'></img> */}
                         
 
 
                     </div>
 
                 </form>
-                 <button className='visit' onClick={visit}>Visit</button>
-
+                <div className="visitbtn">
+                 <button className='visit' onClick={visit}>Linkedin</button>
+                 <button className='visit'onClick={git}>GitHub</button>
+</div>
 
             </div>
 
