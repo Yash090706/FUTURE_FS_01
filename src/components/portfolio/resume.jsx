@@ -24,20 +24,23 @@ function Resume() {
 
         <h4>Technical Skills</h4>
         <ul>
-          <li>Programming Languages: Python, Java</li>
-          <li>Web Development:Frontend Languages - HTML, CSS, JavaScript, React </li>
-          <li>Backend Framework: Django</li>
-          <li>Databases: MySQL,PLSQL</li>
+          <li>Programming Languages: JavaScript,Python, Java</li>
+          <li>Web Development:Frontend Languages -  React,TailwindCSS,Bootstrap. </li>
+          <li>Backend: NodeJS ExpressJS</li>
+          <li>Databases: NonSQL - MongoDB , SQL- MySQL,PLSQL</li>
           <li>Others:Data Structres in Python</li>
+          <li>Tools: Github and Hosting on Netlify and Vercel.</li>
           <li>Soft Skills: Teamwork, Communication, Problem-Solving</li>
         </ul>
 
         <h4>Projects</h4>
         <ul>
-          <li>Ecommerce Website</li>
-          <li>Portfolio Website</li>
-          <li>Gym Management System (Python Tkinter + MySQL)</li>
-          <li>Snake Game (Pygame, Team Project)</li>
+          <li>Ecommerce Website using React,Bootstrap and Django</li>
+          <li>Portfolio Website using React </li>
+          <li>Gym Management System using Python Tkinter + MySQL.</li>
+          <li>User Enquiry using MERN Stack and TailwindCSS.</li>
+          <li>Task Manager using React-Redux.</li>
+          <li>Snake Game using Pygame.</li>
         </ul>
 
         <h4>Achievements</h4>

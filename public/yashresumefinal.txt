@@ -16,15 +16,18 @@ HSC Science - Maharashtra Board, 65.67% (2024) SSC - Maharashtra Board, 82.20% (
 
 Technical Skills
 
-Programming Languages: Python, Java (basic functions and syntax) Web Development: HTML, CSS, JavaScript, React (learning in progress) Databases: MySQL
-Frameworks: Django
-Soft Skills: Teamwork, Communication, Problem-Solving
+Programming Languages: JavaScript,Python, Java
+Web Development:Frontend Languages -  React,TailwindCSS,Bootstrap.
+Backend: NodeJS and ExpressJS
+Databases: NonSQL - MongoDB , SQL- MySQL,PLSQL
+Others:Data Structres in Python
+Tools: Github and Hosting on Netlify and Vercel.
+
 
 
 Projects
 
-Gym Management System using Python's Tkinter and MySQL Snake Game using Pygame (Team Project)
-WordPress Website for Electronic Items Shopping Employee Management System (Django)
+
 
 
 Achievements
