@@ -32,9 +32,9 @@ const projects = [
  link: "https://github.com/Yash090706/UserEnquiryMERNProject",
   },
    {
-   title:"To Do List Project",
-    description: " To-Do List Project using React Redux-Toolkit.",
-image: userenquiry,
+   title:"Task Manager Project",
+    description: " Task Manager Project using React Redux-Toolkit.",
+image: Image,
 skills: ["React","Redux-Toolkit","CSS"],
 link: "https://github.com/Yash090706/ToDoListProjectReact-Redux",
  },
