@@ -5,6 +5,8 @@ import sgame from "../../assets/snakegame.png"; // Assuming you have an image fo
  // Assuming you have an image for the project
  import ecommerce from "../../assets/ecommerce.png";
 import portfolio from "../../assets/portfolio.png";
+import userenquiry from "../../assets/UserEnquiry.png";
+import Image from "../../assets/image.png"; // React REdux
 
 const projects = [
   {
@@ -22,7 +24,20 @@ const projects = [
   skills: ["React","HTML","CSS"],
   link: "https://yashnnportfolio.netlify.app/",
 },
-  
+  {
+    title:"User Enquiry Project",
+     description: "MERN Stack Small User Enquiry Project.",
+ image: userenquiry,
+ skills: ["React","Node.js","Express","MongoDB"],
+ link: "https://github.com/Yash090706/UserEnquiryMERNProject",
+  },
+   {
+   title:"To Do List Project",
+    description: " To-Do List Project using React Redux-Toolkit.",
+image: userenquiry,
+skills: ["React","Redux-Toolkit","CSS"],
+link: "https://github.com/Yash090706/ToDoListProjectReact-Redux",
+ },
   {
     title: "Gym Management System",
     description: "To manage the members ,trainers ,staff and delivery status,inventory and renewal alerts placing equipments orders,graphical tracking of everday new membership also otp verification incase if password is forgotten.",
