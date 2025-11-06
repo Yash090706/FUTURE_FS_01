@@ -1,11 +1,11 @@
 import React from "react";
 import "./skills.css";
 import frontend from "../../assets/frontend2.png";
-import backend from "../../assets/django2.png";
-import database from "../../assets/mysql.png";
-import python from "../../assets/python.png";
-import java from "../../assets/java.png";
-import database2 from "../../assets/database.png";
+// import backend from "../../assets/django2.png";
+// import database from "../../assets/mysql.png";
+// import python from "../../assets/python.png";
+// import java from "../../assets/java.png";
+// import database2 from "../../assets/database.png";
 import backend3 from "../../assets/backend3.png";
 import mongodb from "../../assets/mongodbimg.png";
 import github from "../../assets/githubimg.jpg";
