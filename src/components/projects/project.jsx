@@ -22,7 +22,7 @@ const projects = [
   description: "My first personal portfolio website to showcase my skills and projects.",
   image: portfolio,
   skills: ["React","HTML","CSS"],
-  link: "https://yashnnportfolio.netlify.app/",
+  link: "https://yashnanekarportfolio.netlify.app/",
 },
   {
     title:"User Enquiry Project",

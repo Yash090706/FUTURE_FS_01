@@ -3,6 +3,7 @@ import './contact.css';
 import linkedin from '../../assets/linkedin.png';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer,toast } from 'react-toastify';
 
 
 function Contact(){
@@ -24,17 +25,20 @@ function Contact(){
         (result) => {
             console.log(result.text);
             e.target.reset();
-            alert('SUCCESS! Message Sent');
+            toast.success('Message Sent Successfully');
+            // alert('SUCCESS! Message Sent');
         },
         (error) => {
             console.log(result.text);
-            alert('FAILED... To send Message', error.text);
+            toast.error('Failed to Send Message');
+            // alert('FAILED... To send Message', error.text);
         },
       );
   };
     return(
         <section>
             <div id="contact">
+                <ToastContainer/>
                 <h1 className="contactpagetitle">Contact Me</h1>
                 <span className="contactdesc">
                     Please Fill Out the form for any work opportunities.
